@@ -1,0 +1,267 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.text-vertical-center  {
+    display: table-cell;
+    text-align: center;
+}
+
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 8.5em;
+    font-weight: 700;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    margin-top: 200px;
+}
+
+.text-vertical-center h2 {
+    font-weight: 700;
+    color: #fff;
+    /* color: #170569;*/
+     line-height: 3px;
+     margin-bottom:  100px;
+
+}
+
+#hello > input{
+    vertical-align: middle;
+    border: 4px solid #29434d;
+    display: table-cell;
+    width: 450px;
+    height: 45px;
+background-color: white; 
+opacity: 0.6; 
+font-size: 18px; 
+font-weight: 700;
+}
+
+.search-span{
+    position: relative;
+}
+
+.browse-catalog-container{
+    margin-top: 3px;
+    font-weight: 700;
+}
+
+.browse-catalog-container a{
+    color: #031256;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 27px;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+#sendUs{
+    color: #fff;
+    font-weight: 700;
+}
+
+#myLabel{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#pwd{
+    width: 300px;
+}
+
+.form-control{
+    width: 300px;
+}
+
+#cancelbt{
+    font-size:  25px;
+    font-weight: 700;
+}
+
+
+.btn-light {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgb(0,0,0,0.7);
+}
+
+.btn-light:hover{
+    color: #fff;
+    font-weight: 700;
+    background-color: rgb(0,0,0,0.4);
+
+}
+
+
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+/* Side Menu */
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    margin-right: -200px;
+    overflow-y: auto;
+    background: #000;
+     font-family: 'Josefin Sans', sans-serif;
+    opacity: 0.5;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 30px;
+    line-height: 40px;
+    font-size:  20px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    font-weight: 700;  
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 55px;
+    font-size: 20px;
+    line-height: 59px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #fff;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+    font-weight: 700;
+}
+
+#menu-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#menu{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    text-align: center;
+     margin: 5px 5px 0 0;
+     border-radius: 0;
+    color: #fff;
+    line-height: 1.7;
+    padding: 13px 22px;
+    height: 46px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.sign-up-btn{
+    width: 150px;
+    right: 340px;
+     background-color: rgba(142, 213, 87, 0.5);
+}
+
+.sign-in-btn{
+    width: 100px;    
+    right: 200px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#sidebar-wrapper.active {
+    right: 200px;
+    width: 200px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.toggle {
+    margin: 5px 5px 0 0;
+}
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mainpage.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    opacity: 0.8;
+}
+
+/* About */
+
+.about {
+    padding: 100px 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#container{
+    font-size: 20px;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 100px 0;
+}
